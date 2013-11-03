@@ -73,6 +73,11 @@ border-bottom: 5px solid #e30000;
 	background: #ccc;
 }
 
+.clear{
+  clear: both;
+}
+
+
 #home {
 background-image: url(https://raw.github.com/Jhonurbano/Piranha-Attack/master/fondo4.png);
 background-color: #7da8dd;
@@ -80,7 +85,7 @@ height: 1600px;
 width: 100%;
 margin: 0;
 padding: 10px;
-font-family: 'Noto Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
 
 }
 #home .img {
@@ -94,9 +99,9 @@ img {
 }
 
 .main {
-	height: 70%;
+    height: auto;
 	width:70%;
-	color:#000 ;
+	color:#424242;
 	border: 2px solid #414141;
 	border-top-left-radius: 25px;
 	border-top-right-radius: 25px;
@@ -113,31 +118,34 @@ filter:alpha(opacity=40);*/
 .caja1 {
 	margin: 0 auto;
 	padding: 10px;
+    min-height: 100px;
 
 }
 
 .caja1 h2{
-font-style: normal;
-font-weight: 400;
-font-size: 50px; 
+font-weight: 700;
+font-size: 50px;
+margin: 10px auto;
+text-align: center;
 }
 
 .caja1 p{
 	font-style: normal;
 font-weight: 400;
 font-size: 20px; 
+float: left;
+width: 55%;
 }
 
 .btn {
         border: none;
-        font-family: inherit;
-        font-size: inherit;
+        font-size: 20px;
         color: inherit;
         background: none;
         cursor: pointer;
         padding: 25px 80px;
         display: inline-block;
-        margin: 15px 30px;
+        margin: 50px 10px 0;
         text-transform: uppercase;
         letter-spacing: 1px;
         font-weight: 700;
@@ -183,7 +191,6 @@ font-size: 20px;
 }
 
 .btn-3e {
-        padding: 25px 120px 25px 60px;
         overflow: hidden;
         box-shadow: 0 3px #ab3c3c;
 }
@@ -217,4 +224,98 @@ font-size: 20px;
 .btn-3e:hover:after {
         width: 40%;
         box-shadow: 0 3px #ab3c3c;
+}
+
+
+
+.caja2 {
+    min-height: 280px;
+    background: rgba(211,51,47, 0.9);
+    color: #fff;
+    margin: 30px 0;
+}
+
+
+.contenido2 {
+    width: 90%;
+    margin: 0 auto;
+}
+
+form {
+background: #fff;
+height: 300px;
+width: 250px;
+display: inline-block;
+float: left;
+top: -20px;
+position: relative;
+padding: 10px;
+margin-right: 4rem;
+
+}
+
+.formulario {
+margin-top: 20px;
+}
+
+.formulario span {
+font-size: 30px;
+color: #424242;
+text-align: center;
+font-weight: 300;
+}
+input { 
+background: #F0F2EB;
+border: 2px solid #fff;
+margin: 10px 0;
+height: 40px;
+width: 230px;
+font-size:18px; 
+
+ } 
+
+input[type=submit] { margin-top:10px;}
+
+ input.boton {
+    background: #2fd385;
+    display: inline-block; 
+    padding: 5px 10px 6px; 
+    color: #fff; 
+    text-decoration: none; 
+    border: none; 
+    position: relative; 
+    cursor: pointer;
+    width: 234px;
+    margin-top: 2rem;
+}
+
+.suscribete {
+padding: 20px 10px;
+font-weight: 300;
+font-size: 30px;
+text-align: center;
+}
+
+.caja3 {
+    min-height: 300px;
+     
+}
+
+.caja3 h2{
+    text-align: right;
+    margin: 10px 20px;
+}
+
+.resume {
+width: 500px;
+float: right;
+margin: 10px 30px;
+padding: 10px;
+}
+
+.caja4 {
+    min-height: 300px;
+    background: rgba(47,211,133, 0.9);
+    color: #fff;
+       
 }
