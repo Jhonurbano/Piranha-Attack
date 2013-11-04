@@ -3,10 +3,50 @@
 }
 @media screen and (max-width: 680px){
 	.sp-slideshow { height: 285px; }
+
+	
+	#home {
+		width: 100%;
+		height:auto;
+
+	}
+
+	.main {
+		width: 100%;
+		height:auto;
+
+	}
 }
 @media screen and (max-width: 560px){
 	.sp-slideshow { height: 235px; }
+
+	#home {
+		width: 100%;
+		height:auto;
+
+	}
+
+	.main {
+		width: 100%;
+		height:auto;
+
+	}
+
 }
+
+
 @media screen and (max-width: 320px){
 	.sp-slideshow { height: 158px; }
+
+	#home {
+		width: 100%;
+		height:auto;
+
+	}
+
+	.main {
+		width: 100%;
+		height:auto;
+
+	}
 }
