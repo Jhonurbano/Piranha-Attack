@@ -32,6 +32,10 @@
 
 	}
 
+	.videos {
+		width: 90%;
+	}
+
 }
 
 
@@ -49,4 +53,9 @@
 		height:auto;
 
 	}
+
+		.videos {
+		width: 100%;
+	}
+
 }

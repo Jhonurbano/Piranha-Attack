@@ -39,7 +39,7 @@ nav ul{
 
 ul.menu {
 list-style: none;
-margin: 0;
+margin: 10px;
 max-width: 1210px;
 position: relative;
 padding-top: 5px;
@@ -588,4 +588,10 @@ display: inline-block;
     top: -75px;
 position: relative;
        
+}
+
+.videos {
+margin: 2rem auto;
+width: 70%;
+padding: 15px;
 }
