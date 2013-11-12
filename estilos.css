@@ -366,7 +366,7 @@ img {
 	-moz-box-shadow: 0px 0px 4px rgba(0,0,0,0.2);
 	-webkit-box-shadow: 0px 0px 4px rgba(0,0,0,0.2);
 	box-shadow: 0px 0px 4px rgba(0,0,0,0.2);
-	margin: auto;    
+	margin: auto;  
 	position: relative;
 	background: rgba(255, 255, 255, 0.4);
 	/*opacity:0.4;
@@ -377,22 +377,21 @@ filter:alpha(opacity=40);*/
 	margin: 0 auto;
 	padding: 10px;
     min-height: 100px;
-
 }
 
 .caja1 h2{
-font-weight: 700;
-font-size: 50px;
-margin: 10px auto;
-text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+    margin: 10px auto;
+    text-align: center;
 }
 
 .caja1 p{
 	font-style: normal;
-font-weight: 400;
-font-size: 20px; 
-float: left;
-width: 55%;
+    font-weight: 400;
+    font-size: 20px; 
+    float: left;
+    width: 55%;
 }
 
 .btn {
@@ -536,7 +535,7 @@ font-size:18px;
 
 input[type=submit] { margin-top:10px;}
 
- input.boton {
+input.boton {
     background: #2f7dd3;
     display: inline-block; 
     padding: 5px 10px 6px; 
@@ -557,8 +556,8 @@ text-align: center;
 }
 
 .caja3 {
-    min-height: 300px;
-     
+    margin: 0 auto;
+    min-height: 300px;     
 }
 
 .caja3 h2{
@@ -566,13 +565,20 @@ text-align: center;
     margin: 10px 20px;
 }
 
-.resume {
-width: 500px;
-float: left;
-margin: 10px 30px;
-padding: 10px;
-display: inline-block;
+.caja3 p {
+    font-style: normal;
+    font-size: 1.2em;
+    float: left;    
 }
+
+.resume {
+    width: 58%;
+    float: left;
+    margin: 10px 30px;
+    padding: 10px;
+    display: inline-block;
+}
+
 .kainycolgado {
     width: 300px;
     height: auto;
@@ -586,10 +592,8 @@ display: inline-block;
     background: rgba(47,211,133, 0.9);
     color: #fff;
     top: -75px;
-position: relative;
-       
+    position: relative;       
 }
-
 .videos {
 margin: 2rem auto;
 width: 70%;
