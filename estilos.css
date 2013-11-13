@@ -591,11 +591,50 @@ text-align: center;
     min-height: 300px;
     background: rgba(47,211,133, 0.9);
     color: #fff;
-    top: -75px;
+    margin-top: -75px;
+    margin-bottom: 0;
     position: relative;       
 }
 .videos {
-margin: 2rem auto;
-width: 70%;
-padding: 15px;
+margin: auto;
+width: 80%;
+padding: 1rem 0 5rem;
+}
+
+.caja5 {
+    margin: 0 auto;
+    min-height: 100px;   
+    background: rgba(89, 79, 79, 0.9);
+
+}
+
+.contacto {
+    display: inline-table;
+    color: #2E2633;
+    margin:  10px;
+    
+    
+}
+
+.contacto h3{
+font-weight: 700;
+font-style: italic;
+font-family: 'Noto Sans', sans-serif;
+}
+
+.contacto p{
+font-weight: 400;
+font-style: normal;
+font-family: 'Open Sans', sans-serif;
+}    
+
+.logofooter {
+    display: inline-table;
+}
+
+footer {
+color: #fff;
+font-weight: 300;
+font-size: 25px;
+text-align: center;
 }
