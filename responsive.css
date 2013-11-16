@@ -1,6 +1,8 @@
 @media screen and (max-width: 840px){
 	.sp-slideshow { height: 345px; }
 }
+
+
 @media screen and (max-width: 680px){
 	.sp-slideshow { height: 285px; }
 
@@ -16,7 +18,13 @@
 		height:auto;
 
 	}
+
+		.contacto {
+width: 210px;
 }
+
+}
+
 @media screen and (max-width: 560px){
 	.sp-slideshow { height: 235px; }
 
@@ -35,6 +43,11 @@
 	.videos {
 		width: 90%;
 	}
+
+	.contacto {
+width: 100%;
+}
+
 
 }
 
@@ -56,6 +69,9 @@
 
 		.videos {
 		width: 100%;
+	}
+		.contacto {
+	width: 90%px;
 	}
 
 }
