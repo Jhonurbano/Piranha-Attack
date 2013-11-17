@@ -9,14 +9,12 @@
 <link href='http://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css' />	
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css' />
 <title>Pivot Studio - Desarrollo de videojuegos multiplataforma</title>
+<link rel="stylesheet" href="slidy/slidy.css">
 </head>
 <body>
 <header>
 	<!--<h2>Logo</h2> -->
-	<nav>
-
-
-		
+	<nav>		
 		<ul class='menu'>
 			
    						<li><a hrf='#'>Inicio</a></li>
@@ -28,59 +26,54 @@
 </header>
 <section>
 
-<!--div id='slider'>
-	<P style='margin:0 auto; padding:100px; font-weight: 400;font-size: 50px; color:#fff;font-family:'Noto Sans', sans-serif;'>slider</P>
-</div -->
-
 <!--- SLIDER -->
 
-<div class="sp-slideshow">
-             
-    <input id="button-1" type="radio" name="radio-set" class="sp-selector-1" checked="checked" />
-    <label for="button-1" class="button-label-1"></label>
-     
-    <input id="button-2" type="radio" name="radio-set" class="sp-selector-2" />
-    <label for="button-2" class="button-label-2"></label>
-     
-    <input id="button-3" type="radio" name="radio-set" class="sp-selector-3" />
-    <label for="button-3" class="button-label-3"></label>
-     
-    <input id="button-4" type="radio" name="radio-set" class="sp-selector-4" />
-    <label for="button-4" class="button-label-4"></label>
-     
-    <input id="button-5" type="radio" name="radio-set" class="sp-selector-5" />
-    <label for="button-5" class="button-label-5"></label>
-     
-    <label for="button-1" class="sp-arrow sp-a1"></label>
-    <label for="button-2" class="sp-arrow sp-a2"></label>
-    <label for="button-3" class="sp-arrow sp-a3"></label>
-    <label for="button-4" class="sp-arrow sp-a4"></label>
-    <label for="button-5" class="sp-arrow sp-a5"></label>
-     
-    <div class="sp-content">
-        <div class="sp-parallax-bg"></div>
-        <ul class="sp-slider clearfix">
-            <li><img src="IMAGENES/PIRANHA_SLIDER.png" alt="image01" /></li>
-            <li><img src="IMAGENES/PIRANHA_SLIDER2.png" alt="image02" /></li>
-            <li><img src="IMAGENES/PIRANHA_SLIDER3.png" alt="image03" /></li>
-            <li><img src="IMAGENES/PIRANHA_SLIDER4.png" alt="image04" /></li>
-            <li><img src="IMAGENES/PIRANHA_SLIDER5.png" alt="image05" /></li>
-        </ul>
-    </div><!-- sp-content -->
-     
-</div><!-- sp-slideshow -->
+<div id="slidyBanner" class="slidyContainer">
+                    <div class="slidySlides">
+
+            <!-- Each slide is wrapped in figure section -->
+
+            <!-- Slide 1 -->
+            <!-- add the 'slidyCurrent' class to which slide you want as default -->
+            <figure class="slidyCurrent">                
+                <img  alt="Piranha Attack" src="IMAGENES/PIRANHA_SLIDER.jpg">
+            </figure>
+
+            <!-- Slide 2 -->
+            <figure>
+                <img  alt="Piranha Attack"  src="IMAGENES/PIRANHA_SLIDER2.jpg">                
+            </figure>
+
+            <!-- Slide 3 -->
+            <figure>
+                <img  alt="Piranha Attack"  src="IMAGENES/PIRANHA_SLIDER3.jpg">                
+            </figure>
+
+            <!-- Slide 4 -->
+            <figure>
+                <img  alt="Piranha Attack"  src="IMAGENES/PIRANHA_SLIDER4.jpg">                
+            </figure>
+
+            <!-- Slide 5 -->
+            <figure>
+                <img  alt="Piranha Attack"  src="IMAGENES/PIRANHA_SLIDER5.jpg">                
+            </figure>
+
+        </div>
+    </div>
+
+<!--- FIN SLIDER -->
 
 </section>
 
 <div class='clear'></div>
 
 <div id='home'>
-<!-- img src="fondo4.png" -->
 <div class='main'>
 <div class='caja1'>
-<h2>¡Prueba ya la versión web!</h2>
+<h2>&#161;Prueba ya la versi&oacute;n web&#33;</h2>
 
-<p>Les presentamos <b>Piranha Attack!</b> Un Videojuego para Dispositivos Móviles: Android (Tablet, Celulares), iOS (Iphone, Ipad), BlackBerry (Z10, PlayBook) y Web. Próximamente lo podrán disfrutar en todas sus versiones!</p>
+<p>Les presentamos <b>Piranha Attack&#33;</b>, un videojuego para Dispositivos M&oacute;viles: Android (Tablet, Celulares), iOS (Iphone, Ipad), BlackBerry (Z10, PlayBook) y Web. Pr&oacute;ximamente lo podr&aacute;n disfrutar en todas sus versiones&#33;</p>
 
 <button class="btn btn-3 btn-3e" onclick="window.location.href='Piranha-Attack'">Jugar ahora!</button>
 
@@ -147,6 +140,14 @@
 </footer>
 <div class='clear'></div>
 </div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>  
+<script src="slidy/slidy.js"></script>
+
+	<script>
+		$('.slidyContainer').slidy({
+		});
+	</script>
 
 </body>	
 </html>
