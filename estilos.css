@@ -171,6 +171,54 @@ img {
 filter:alpha(opacity=40);*/
 } 
 
+h2, h3 {
+    font-weight: 700;
+    font-size: 50px;
+    margin: 10px auto;
+    text-align: center;
+}
+.main-contacto {    
+    width: 70%;
+    color: #424242;
+    border: 2px solid #414141;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    -moz-box-shadow: 0px 0px 4px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0px 0px 4px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.2);
+    margin: auto;  
+    position: relative;
+    background: rgba(22, 177, 67, 0.9);
+}
+
+.main-nosotros {    
+    width: 70%;
+    color: #424242;
+    border: 2px solid #414141;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    -moz-box-shadow: 0px 0px 4px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0px 0px 4px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.2);
+    margin: auto;  
+    position: relative;
+    background: rgba(22, 177, 67, 0.9);
+}
+.main1 {    
+    width: 70%;
+    color: #424242;
+    border: 2px solid #414141;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    -moz-box-shadow: 0px 0px 4px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0px 0px 4px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.2);
+    margin: auto;  
+    position: relative;
+    background: rgba(255, 255, 255, 0.9);
+}  
+
+
 .caja1 {
 	margin: 0 auto;
 	padding: 10px;
@@ -298,7 +346,7 @@ filter:alpha(opacity=40);*/
     margin: 0 auto;
 }
 
-form {
+#registro {
 background: #fff;
 height: 300px;
 width: 250px;
@@ -313,17 +361,17 @@ border-radius: 10px;
 
 }
 
-.formulario {
+#registro  .formulario {
 margin-top: 20px;
 }
 
-.formulario span {
+#registro  .formulario span {
 font-size: 30px;
 color: #424242;
 text-align: center;
 font-weight: 300;
 }
-input { 
+#registro  input { 
 background: #F0F2EB;
 border: 2px solid #fff;
 margin: 10px 0;
@@ -333,9 +381,9 @@ font-size:18px;
 
  } 
 
-input[type=submit] { margin-top:10px;}
+#registro input[type=submit] { margin-top:10px;}
 
-input.boton {
+#registro  input.boton {
     background: #2f7dd3;
     display: inline-block; 
     padding: 5px 10px 6px; 
@@ -407,6 +455,9 @@ padding: 1rem 0 1rem;
     background: rgba(89, 79, 79, 0.9);
 }
 
+.margen {
+    margin: 0 30px;
+}
 .game {    
     width: 98%;
     color: #424242;
@@ -421,6 +472,177 @@ padding: 1rem 0 1rem;
     background: rgba(255, 255, 255, 0.9);    
 }
 
+.caja-contacto {
+    min-height: 280px;
+    color: #fff;
+    margin: 30px 0;
+    display: inline-block;
+    width: 300px;
+}
+
+.formulario-contacto {
+    display: inline;
+    width: 350px;
+    float: right;
+    margin: 30px 10px;
+
+}
+
+
+#contacto{
+height: 450px;
+width: 350px;
+display: inline-block;
+padding: 10px;
+margin-right: 4rem;
+border-radius: 10px;
+
+}
+
+#contacto label{
+ color: #fff;   
+ font-weight: bold;
+ float: left;
+ margin-right: 10px;
+ width: 120px;
+
+}
+
+#contacto input { 
+background: #F0F2EB;
+border: 2px solid #fff;
+margin: 10px 0;
+height: 40px;
+width: 100%;
+font-size:18px; 
+
+ } 
+
+ #contacto textarea { 
+background: #F0F2EB;
+border: 2px solid #fff;
+margin: 10px 0;
+height: 150px;
+width: 100%;
+font-size:18px; 
+
+ } 
+
+#contacto .button{
+    float: right;
+    margin: 10px 0 0 0;
+    padding: 7px 15px;
+    cursor: pointer;   
+    color: #fff;
+    font: bold 13px Tahoma, Verdana, Arial;
+    text-transform: uppercase;
+    overflow: visible; /* IE6/7 fix */
+    border: 0;  
+   
+    background-color: #ce1615;
+    background-image: -moz-linear-gradient(#ec4544, #ce1615);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ec4544), to(#ce1615));    
+    background-image: -webkit-linear-gradient(#ec4544, #ce1615);
+    background-image: -o-linear-gradient(#ec4544, #ce1615);
+    background-image: -ms-linear-gradient(#ec4544, #ce1615);
+    background-image: linear-gradient(#ec4544, #ce1615);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#ec4544', EndColorStr='#ce1615');     
+
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    
+    text-shadow: 0 1px 0 rgba(0,0,0,.3);
+    
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5), 0 3px 0 rgba(0, 0, 0, 0.7)webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5), 0 3px 0 rgba(0, 0, 0, 0.7);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5), 0 3px 0 rgba(0, 0, 0, 0.7);
+}
+
+#contacto .button:hover {
+    background-color: #ec4544;
+    background-image: -moz-linear-gradient(#ce1615, #ec4544);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ce1615), to(#ec4544));      
+    background-image: -webkit-linear-gradient(#ce1615, #ec4544);
+    background-image: -o-linear-gradient(#ce1615, #ec4544);
+    background-image: -ms-linear-gradient(#ce1615, #ec4544);
+    background-image: linear-gradient(#ce1615, #ec4544);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#ce1615', EndColorStr='#ec4544');     
+}
+
+#contacto .button:active
+{
+    background: #ce2515;
+    position: relative;
+    top: 2px;
+    
+    -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.7) inset;
+    -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.7) inset;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.7) inset; 
+}
+
+/* =============== Juegos =========================================== */
+
+.descripcion {
+    display: inline-block;
+    width: 50%;
+    float: left;
+}
+.icono {
+    float: right;
+}
+
+.cajakaboom {
+    margin: 0 auto;
+    min-height: 300px;
+    color: #fff;
+    background: rgba(206,22,21, 0.9);   
+}
+
+.descripcion2 {
+    display: inline-block;
+    width: 50%;
+    float: right;
+}
+.icono2 {
+    float: left;
+}
+
+.cajapiranha {
+    margin: 0 auto;
+    min-height: 300px;
+    color: #fff;
+    background: rgba(22, 177, 67, 0.9);   
+}
+
+.descripcion3 {
+    display: inline-block;
+    width: 50%;
+    float: left;
+}
+.icono3 {
+    float: right;
+}
+
+/*==================== Nosotros =============================*/ 
+
+
+.grid {
+    padding: 20px 20px 100px 20px;
+    max-width: 1300px;
+    margin: 0 auto;
+    list-style: none;
+    text-align: center;
+}
+ 
+.grid li {
+    display: inline-block;
+    width: 440px;
+    margin: 0;
+    padding: 20px;
+    text-align: left;
+    position: relative;
+}
+/* ===================== Sección Footer ========================== */
 .logosfooter {
     margin: auto;
     padding: 5px;
@@ -428,14 +650,6 @@ padding: 1rem 0 1rem;
     min-width: 100px;
     text-align: center;
 }
-
-/*
-.logosfooter a {
-display: block;
-float: right;
-height: 34px;
-margin: 0 0.3em;
-}*/ 
 
 #logofooter-pivot{
 
@@ -450,9 +664,42 @@ display: inline-block;
 }
 
 footer {
-color: #fff;
+color: rgb(89, 79, 79);
 font-weight: 300;
 font-size: 18px;
 margin-top: 10px;
 text-align: center;
+font-weight: bold;
+}
+
+.logosfooter a {
+display:block;
+float:right;
+height:auto;
+margin:0 0.3em;
+text-indent:-9999px;
+}
+
+#logofooter-pivot {
+background: url('IMAGENES/logopivotoscuro2.png') no-repeat;
+float:right;
+height:64px;
+padding-right:50px;
+}
+#logofooter-pivot:hover {
+background-image: url("IMAGENES/logopivotocolor2.png");
+padding-right:50px;
+background-repeat: no-repeat;
+}
+
+#logofooter-net {
+background: url('IMAGENES/logonetmastersoscuro2.png') no-repeat;
+float:right;
+height:100px;
+padding-right:50px;
+}
+#logofooter-net:hover {
+background-image: url("IMAGENES/logonetmasterscolor2.png");
+padding-right:50px;
+background-repeat: no-repeat;
 }

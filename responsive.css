@@ -1,5 +1,16 @@
 @media screen and (max-width: 840px){
 	.sp-slideshow { height: 345px; }
+
+.caja-contacto, .formulario-contacto, #contacto {    
+    width: 100%;
+ }
+ .icono {
+ 	margin: auto;
+	text-align: center;
+	float: right;
+ }
+
+
 }
 
 
@@ -19,8 +30,22 @@
 
 	}
 
-		.contacto {
-width: 210px;
+.caja-contacto, .formulario-contacto, #contacto {    
+    width: 100%;
+ }
+
+
+.descripcion {
+	width: 100%;
+}
+ .icono {
+ 	margin: auto;
+	text-align: center;
+	float: none;
+ }
+
+.cajakaboom, .descripcion2, .icono2 {
+    width: 100%;
 }
 
 }
@@ -129,6 +154,13 @@ width: 100%;
 	background-position:98% 50%
 }
 
+.caja-contacto, .formulario-contacto, #contacto {    
+    width: 100%;
+ }
+
+.main1, .cajajuegos, .descripcion {    
+    width: 100%;
+ }
 
 
 
@@ -157,6 +189,14 @@ width: 100%;
 	width: 90%px;
 	}
 
+
+.main-contacto, .caja-contacto, .formulario-contacto, #contacto {    
+    width: 100%;
+ }
+
+.main1, .cajajuegos, .descripcion {    
+    width: 100%;
+ }
 
 
 }
