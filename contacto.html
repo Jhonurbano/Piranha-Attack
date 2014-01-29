@@ -80,19 +80,21 @@ Tienes alguna duda?, estamos dispuestos a contestarte, tan pronto como sea posib
 		</p>
 	</div>	
 <div class='formulario-contacto'>
-	<form id='contacto'>
+	<form id='contacto' action="mail.php" method="POST">
 			<div id="form-inner">
-
+				
 			            <label for="name">Nombre:</label>
-			            <input type="text" class="input" id="name" placeholder="Kainy">
+			            <input type="text" class="input" id="name" name="name" placeholder="Kainy">
 			        
 			            <label for="email">Email:</label>
-			            <input type="email" class="input" id="email" placeholder="Kainy@tucorreo.com">
+			            <input type="email" class="input" id="email" name="email" placeholder="Kainy@tucorreo.com">
 			        
 			            <label for="message">Mensaje</label>
-			            <textarea class="input textarea" id="message" placeholder="Escribe aqui tu mensaje"></textarea>    
+			            <textarea class="input textarea" id="message" name="message" placeholder="Escribe aqui tu mensaje"></textarea>    
 			        
-			             <input type="submit" class="button" value="Enviar">
+			             <input type="submit" class="button"  value="Send">
+			             <input type="reset" value="Clear"></form>
+
 
 			        </div>
 	</form>			

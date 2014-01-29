@@ -151,8 +151,7 @@ filter:alpha(opacity=40);  /*For IE8 and earlier */
 }
 
 img {
-	height: 100%;
-	width: 100%;
+	height: auto;
 }
 
 .main {    
@@ -202,7 +201,7 @@ h2, h3 {
     box-shadow: 0px 0px 4px rgba(0,0,0,0.2);
     margin: auto;  
     position: relative;
-    background: rgba(22, 177, 67, 0.9);
+    background: rgba(255, 255, 255, 0.9);
 }
 .main1 {    
     width: 70%;
@@ -457,6 +456,7 @@ padding: 1rem 0 1rem;
 
 .margen {
     margin: 0 30px;
+    display: inline-block;
 }
 .game {    
     width: 98%;
@@ -625,41 +625,135 @@ font-size:18px;
 
 /*==================== Nosotros =============================*/ 
 
+.fotos-nosotros{
+    padding: 10px;
+    margin: 10px auto;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    transition: 0.5s;
+    background:#2f7dd3;
+} 
 
-.grid {
-    padding: 20px 20px 100px 20px;
-    max-width: 1300px;
-    margin: 0 auto;
-    list-style: none;
+.fotos-nosotros:hover {
+    background: rgb(206,22,21);
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    transition: 0.5s;
+} 
+/*==================== Piranha =============================*/ 
+.izq{
+    float: left;
+    display: inline-block;
+    width: 600px;
+    margin: 5px auto;
+    padding: 0 5px;
+
+}
+.cajakainy {
+    border: 2px solid red;
+    padding: 5px;
+    display: inline-block;
+}
+
+.kainytexto{
+float: left;
+display: inline-block;
+width: 50%;
+text-align: center;
+font-weight: 300;
+font-size: 30px;
+
+}
+
+.kainyboton {
+    width: 100px;
+    display:inline-block;
+    background: url(IMAGENES/kainy-piranha.png) ;
+}
+
+
+#kainybtn {
+background: url(IMAGENES/kainy-piranha.png) ;
+}
+
+#kainybtn:active {
+    background-image: url(IMAGENES/kainy-piranha-hover.png);
+}
+
+#kainybtn img {
+width: 90%;
+}
+.der{
+   /* float: right;*/
+    display: inline-block;
+    width: 230px;
+    margin: 5px auto;
+    padding: 0 5px;
+
+}
+
+.botonesder {
+    margin: auto;
     text-align: center;
 }
- 
-.grid li {
-    display: inline-block;
-    width: 440px;
-    margin: 0;
-    padding: 20px;
-    text-align: left;
-    position: relative;
+
+
+.botonesder a {
+display:block;
+float:right;
+height:auto;
+margin:0 0.3em;
+text-indent:-9999px;
 }
+
+
+#piranhaplay {
+background: url('IMAGENES/boton-piranha.png') no-repeat;
+float: center;
+}
+
+
+#piranhaplay:hover {
+background-image: url("IMAGENES/boton-piranha-hover.png");
+background-repeat: no-repeat;
+}
+
+
+
+/*
+#piranhaplay {
+background: url('IMAGENES/boton-piranha.png') no-repeat;
+float:right;
+height:100px;
+padding-right:50px;
+}
+#piranhaplay:hover {
+background-image: url("IMAGENES/boton-piranha-hover");
+padding-right:50px;
+background-repeat: no-repeat;
+} */
+
+
+.cajavideo {
+background: rgba(22, 177, 67, 0.9);
+color: #fff;
+position: relative;
+}
+
 /* ===================== Sección Footer ========================== */
 .logosfooter {
-    margin: auto;
+    margin: 5px auto;
     padding: 5px;
-    width: 50%;
+    width: 20%;
     min-width: 100px;
     text-align: center;
 }
 
 #logofooter-pivot{
-
-min-width: 150px;
 display: inline-block;
 }
 
 #logofooter-net {
-
-min-width: 150px;
 display: inline-block;
 }
 
@@ -684,22 +778,19 @@ text-indent:-9999px;
 background: url('IMAGENES/logopivotoscuro2.png') no-repeat;
 float:right;
 height:64px;
-padding-right:50px;
+width:64px;
 }
 #logofooter-pivot:hover {
 background-image: url("IMAGENES/logopivotocolor2.png");
-padding-right:50px;
-background-repeat: no-repeat;
 }
 
 #logofooter-net {
 background: url('IMAGENES/logonetmastersoscuro2.png') no-repeat;
 float:right;
-height:100px;
-padding-right:50px;
+height:58px;
+width:65px;
 }
 #logofooter-net:hover {
 background-image: url("IMAGENES/logonetmasterscolor2.png");
-padding-right:50px;
 background-repeat: no-repeat;
 }
