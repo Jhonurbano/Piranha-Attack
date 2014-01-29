@@ -16,19 +16,42 @@
 </head>
 <body style="background ">
 <header>
-	<!--<h2>Logo</h2> -->
-	<nav>
+	<nav id='nav'>
+		<a href="http://www.pivotstudio.co/" id='logo-pivot'><img alt="Pivot Studio" border="0" src="../IMAGENES/banner-pivot.png" style="width:170px;margin: 10px 10px 0;"
+		    title="Pivot Studio"/></a>    
+			<div id='navinti'>
+			<ul class='inticl'>
+				<li><a href='/'>Inicio</a></li>
+				<li><a href='juegos.html'>Juegos</a></li>
+				<li><a href='nosotros.html'>Nosotros</a></li>
+				<li><a href='http://blog.pivotstudio.co/'>Blog</a></li>
+				<li><a href='contacto.html'>Contacto</a></li>
+			</ul>
+		</div>
+		<div id='navmobi'>
+			<a class='mobictr'>&#8801; Menu</a>
+		</div>
 
-
-		
-		<ul class='menu'>
-			
-   						<li><a hrf='http://www.pivotstudio.co/>Inicio</a></li>
-                        <li><a hrf='#'>Juegos</a></li>
-                        <li><a hrf='#'>Nosotros</a></li>
-                        <li><a hrf='#'>Contacto</a></li>
-                </ul>
+		<ul class="social" id="social-icons">
+			<li class="social-icon youtube-icon" data-color="#c4302b"><a href="https://www.youtube.com/user/PivotStudioRV" target="_blank"></a></li>
+			<li class="social-icon facebook-icon" data-color="#3B5998"><a href="https://www.facebook.com/PivotStudio" target="_blank"></a></li>
+			<li class="social-icon twitter-icon" data-color="#00acee"><a href="https://www.twitter.com/PivotStudio" target="_blank"></a></li>
+		</ul>
 	</nav>
+
+
+	<script type='text/javascript'>
+	//<![CDATA[
+	$('#navinti ul.inticl').clone().appendTo('#navmobi');
+	$('.mobictr').toggle(function() {
+	    $(this).addClass('active');
+	    $('#navmobi .inticl').slideDown();
+	}, function() {
+	    $(this).removeClass('active');
+	    $('#navmobi .inticl').slideUp();
+	});
+	//]]>
+	</script>
 </header>
 
 <div id='home'>
@@ -103,5 +126,14 @@
 <div class='clear'></div>
 </div>
 
+<!-- Analitycs -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-46262919-1', 'pivotstudio.co');
+  ga('send', 'pageview');
+</script>
 </body>	
 </html>

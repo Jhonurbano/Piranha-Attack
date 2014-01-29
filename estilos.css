@@ -450,13 +450,13 @@ padding: 1rem 0 1rem;
 
 .caja5 {
     margin: 0 auto;
+    padding: 10px;
     min-height: 100px;   
     background: rgba(89, 79, 79, 0.9);
 }
 
 .margen {
-    margin: 0 30px;
-    display: inline-block;
+    margin: 0 30px;    
 }
 .game {    
     width: 98%;
@@ -474,10 +474,12 @@ padding: 1rem 0 1rem;
 
 .caja-contacto {
     min-height: 280px;
+    font-size: 18px;
     color: #fff;
     margin: 30px 0;
     display: inline-block;
-    width: 300px;
+    width: 500px;
+    text-align: justify;
 }
 
 .formulario-contacto {
