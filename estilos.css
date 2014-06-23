@@ -625,6 +625,24 @@ font-size:18px;
     float: right;
 }
 
+.slide-text-info-btns{
+    text-align: center;
+    padding: 10px;
+}
+.apple{
+    width: 214px;
+    height: 66px;
+    display: inline-block;
+    background: url(IMAGENES/download-btns.png) no-repeat 0px 0px;
+    margin-right:1em;
+}
+.play-btn{
+    width: 214px;
+    height: 66px;
+    display: inline-block;
+    background: url(IMAGENES/download-btns.png) no-repeat -237px 0px;
+}
+
 /*==================== Nosotros =============================*/ 
 
 .fotos-nosotros{
@@ -652,9 +670,19 @@ font-size:18px;
 
 }
 .cajakainy {
-    border: 2px solid red;
+    /*border: 2px solid red;*/
     padding: 5px;
     display: inline-block;
+}
+
+.kainytexto {
+    float: left; 
+    display: inline-block; 
+    width: 50%; 
+    text-align:center; 
+    font-style: 400;
+    font-weight: 300;
+    font-size: 30px;
 }
 
 .kainytexto{
@@ -668,23 +696,32 @@ font-size: 30px;
 }
 
 .kainyboton {
-    width: 100px;
-    display:inline-block;
-    background: url(IMAGENES/kainy-piranha.png) ;
+    margin: 5px 20px;
+    padding: 5px;
+    width: 20%;
+    min-width: 100px;
+    text-align: center;
+    display: inline-block;
 }
 
-
-#kainybtn {
-background: url(IMAGENES/kainy-piranha.png) ;
+.kainyboton img{
+    width: 200px;
+    height: auto;
 }
 
-#kainybtn:active {
-    background-image: url(IMAGENES/kainy-piranha-hover.png);
+/*.kainyboton a {
+display:block;
+float:right;
+height:auto;
+margin:0 0.3em;
+text-indent:-9999px;
 }
 
-#kainybtn img {
-width: 90%;
-}
+#kainybtn:hover {
+background-image: url("IMAGENES/kainy-piranha-hover.png");
+background-repeat: no-repeat;
+}*/
+
 .der{
    /* float: right;*/
     display: inline-block;
